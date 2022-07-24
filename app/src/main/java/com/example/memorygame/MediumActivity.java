@@ -64,8 +64,8 @@ public class MediumActivity extends AppCompatActivity {
         }
         movesCounter = 0;
 
-        triesNumber = (TextView)findViewById(R.id.mediumTries);
-        triesNumber.setText(movesCounter);
+//        triesNumber = (TextView)findViewById(R.id.mediumTries);
+//        triesNumber.setText(movesCounter);
 
     }
 
@@ -96,7 +96,7 @@ public class MediumActivity extends AppCompatActivity {
                     firstImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText(movesCounter);
+//                    triesNumber.setText(movesCounter);
                 }
             }
         }
@@ -108,7 +108,7 @@ public class MediumActivity extends AppCompatActivity {
                     secondImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText(movesCounter);
+//                    triesNumber.setText(movesCounter);
                 }
             }
         }

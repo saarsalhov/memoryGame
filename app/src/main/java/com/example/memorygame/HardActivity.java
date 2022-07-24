@@ -78,8 +78,8 @@ public class HardActivity extends AppCompatActivity {
         }
         movesCounter = 0;
 
-        triesNumber = (TextView)findViewById(R.id.hardTries);
-        triesNumber.setText(movesCounter);
+//        triesNumber = (TextView)findViewById(R.id.hardTries);
+//        triesNumber.setText(movesCounter);
     }
 
     @Override
@@ -109,7 +109,7 @@ public class HardActivity extends AppCompatActivity {
                     firstImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText("moves: " + movesCounter);
+//                    triesNumber.setText("moves: " + movesCounter);
                 }
             }
         }
@@ -121,7 +121,7 @@ public class HardActivity extends AppCompatActivity {
                     secondImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText("moves: " + movesCounter);
+//                    triesNumber.setText("moves: " + movesCounter);
                 }
             }
         }

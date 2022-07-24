@@ -44,10 +44,8 @@ public class EasyActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if(extras != null){
             String passedUser = extras.getString("name");
-            username = (TextView)findViewById(R.id.userName);
+            username = (TextView)findViewById(R.id.easyUserName);
             username.setText(passedUser);
-
-//            Toast.makeText(getApplicationContext(),message, Toast.LENGTH_LONG).show();
         }
 
         myImageList.add(R.drawable.pizza);
@@ -65,8 +63,8 @@ public class EasyActivity extends AppCompatActivity {
         }
         movesCounter = 0;
 
-        triesNumber = (TextView)findViewById(R.id.easyTries);
-        triesNumber.setText(movesCounter);
+//        triesNumber = (TextView) findViewById(R.id.easyTries);
+//        triesNumber.setText(movesCounter);
     }
 
     @Override
@@ -96,7 +94,7 @@ public class EasyActivity extends AppCompatActivity {
                     firstImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText(movesCounter);
+//                    triesNumber.setText(movesCounter);
                 }
             }
         }
@@ -108,7 +106,7 @@ public class EasyActivity extends AppCompatActivity {
                     secondImage = card.imgId;
                     card.SetCardIsOpen(true);
                     movesCounter++;
-                    triesNumber.setText(movesCounter);
+//                    triesNumber.setText(movesCounter);
                 }
             }
         }
@@ -135,7 +133,6 @@ public class EasyActivity extends AppCompatActivity {
         for (Card card : myCardsList){
             if (!card.isOpen) {
                 isWin = false;
-                break;
             }
         }
         return  isWin;
