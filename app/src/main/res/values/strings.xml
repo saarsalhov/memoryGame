@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="mediumLevel">Level: Medium</string>
+    <string name="appName">Memory Game</string>
+    <string name="username">Enter your name:</string>
+    <string name="levelSelector">Choose a level</string>
+    <string name="easy">easy</string>
+    <string name="medium">medium</string>
+    <string name="hard">hard</string>
+    <string name="startButton">Start</string>
+    <string name="easyLevel">Level: Easy</string>
+    <string name="easyMoves">Moves</string>
+    <string name="mediumMoves">Moves</string>
+    <string name="hardMoves">Moves</string>
+    <string name="hardLevel">Level: Hard</string>
+</resources>

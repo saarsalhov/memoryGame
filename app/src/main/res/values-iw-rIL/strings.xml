@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">משחק הזיכרון</string>
+    <string name="mediumLevel">רמה: בינוני</string>
+    <string name="username">הכנס את שמך:</string>
+    <string name="appName">משחק הזיכרון</string>
+    <string name="levelSelector">בחר רמה</string>
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+    <string name="startButton">התחל</string>
+    <string name="easyLevel">רמה: קל</string>
+    <string name="easyMoves">נסיונות</string>
+    <string name="mediumMoves">נסיונות</string>
+    <string name="hardMoves">נסיונות</string>
+    <string name="hardLevel">רמה: קשה</string>
+</resources>

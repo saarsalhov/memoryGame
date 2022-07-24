@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#61982D2D"
+    tools:context=".MediumActivity">
+
+    <ImageView
+        android:id="@+id/mediumView1"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:layout_marginEnd="70dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mediumView4"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/mediumView2"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintEnd_toEndOf="@+id/mediumView1"
+        app:layout_constraintTop_toTopOf="@+id/mediumView5"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/mediumView3"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintEnd_toEndOf="@+id/mediumView2"
+        app:layout_constraintTop_toTopOf="@+id/mediumView6"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/mediumView4"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/mediumView5"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="352dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintStart_toStartOf="@+id/mediumView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <ImageView
+        android:id="@+id/mediumView6"
+        android:layout_width="95dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="504dp"
+        android:onClick="onImageclicked"
+        app:layout_constraintStart_toStartOf="@+id/mediumView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card" />
+
+    <TextView
+        android:id="@+id/mediumLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:minHeight="48dp"
+        android:onClick="onImageclicked"
+        android:text="@string/mediumLevel"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mediumTries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/mediumView4"
+        app:layout_constraintEnd_toEndOf="@+id/mediumMoves"
+        app:layout_constraintStart_toStartOf="@+id/mediumMoves"
+        app:layout_constraintTop_toBottomOf="@+id/mediumMoves"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <TextView
+        android:id="@+id/mediumUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/mediumView1"
+        app:layout_constraintTop_toTopOf="@+id/mediumMoves" />
+
+    <TextView
+        android:id="@+id/mediumMoves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mediumMoves"
+        app:layout_constraintBottom_toTopOf="@+id/mediumView4"
+        app:layout_constraintStart_toStartOf="@+id/mediumView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
